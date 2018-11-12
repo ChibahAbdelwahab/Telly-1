@@ -18,14 +18,12 @@ import com.telly.dao.User;
 
 
 @Controller
-public class HomeController {
+public class HomeController 
+{
 	@RequestMapping("/")
 	public String showHome() {
 		
 		return "home";
 	}
-	}
-
-
-
 }
+
